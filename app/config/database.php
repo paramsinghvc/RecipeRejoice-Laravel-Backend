@@ -54,10 +54,10 @@ return array(
 
 		'mysql' => array(
 			'driver' => 'mysql',
-			'host' => 'localhost',
-			'database' => 'recipes',
-			'username' => 'root',
-			'password' => 'root',
+			'host' => 'sql5.freemysqlhosting.net',
+			'database' => 'sql575310',
+			'username' => 'sql575310',
+			'password' => 'hG1!pR2!',
 			'charset' => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix' => '',
