@@ -12,8 +12,8 @@
  */
 
 App::before(function ($request) {
-	header('Access-Control-Allow-Origin: http://test.reciperejoice.dev');
-	header('Access-Control-Allow-Origin: https://glacial-atoll-2231.herokuapp.com');
+	// header('Access-Control-Allow-Origin: http://test.reciperejoice.dev');
+	header('Access-Control-Allow-Origin: https://glacial-atoll-2231.herokuapp.com http://test.reciperejoice.dev');
 	header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS');
 	header('Access-Control-Allow-Headers: Origin, Content-Type, Accept, Authorization, X-Request-With');
 	header('Access-Control-Allow-Credentials: true');
